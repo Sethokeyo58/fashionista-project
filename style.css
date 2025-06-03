@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+
+}
+
+.navbar {
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+input [type="text" placeholder="Search.."] {
+    align-items: left;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 16px;
+    padding: 8px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+}
